@@ -1,0 +1,19 @@
+
+# Ruby on Rails Patient Management Application
+
+## Project Structure
+
+- patient_management/
+    - app/                 # Rails app folder
+        - controllers/     # Contains controllers for Receptionists and Doctors
+        - models/          # Contains models for Patient, User (authentication)
+        - views/           # HTML views for CRUD operations and graph display
+        - assets/          # CSS, JavaScript, and images for front-end
+    - config/              # Configuration files, including routes
+        - routes.rb        # Defines routes for both Receptionist and Doctor portals
+    - db/                  # Database migrations, schema, and seeds
+        - migrations/      # Database migration files
+    - Gemfile              # Ruby gem dependencies
+    - README.md            # Instructions for setup and running the project
+    - Dockerfile           # Optional: Docker configuration for deployment
+    - docker-compose.yml   # Optional: Docker Compose for multi-container setup (PostgreSQL, Rails)
